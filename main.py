@@ -35,13 +35,13 @@ def main():
                     p_success = np.random.uniform(0, 1)
                     if PK >= p_success:
                         # engaged successfully
-                        print("Target hostile and system engaged. Engagement has been successful.")
+                        print("Target is hostile and system engaged. Target has been successfully neutralized.")
                     else:
                         # not successfully
-                        print("Target hostile and system engaged. Engagement has been not successful.")
+                        print("Target is hostile and system engaged. Target has not been neutralized.")
                 else:
                     # not hostile
-                    print("Target not hostile. Not engaged.")
+                    print("Target is not hostile. Missile not fired.")
                 step = step + 1
                 print()
     except Exception as e:
